@@ -7,7 +7,7 @@ export default function Card(props) {
   const priceRef=useRef();
   const [qty,setQty]=useState(1);
   const[size,setSize]=useState("")
-  let foodItem=props.foodItems;
+  //let foodItem=props.foodItems;
   let data=useCart();
   let dispatch=useDispatchCart();
   const handleAddToCart = async () => {
